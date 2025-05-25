@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GF Interior Design</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/logo.jpg" alt="GF Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Trang chủ</a></li>
+                <li><a href="#">Giới thiệu</a></li>
+                <li><a href="#">Dự án</a></li>
+                <li><a href="#">Liên hệ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="slider">
+        <div class="slider-container">
+            <div class="slide active fade">
+                <img src="images/slider_1.jpg" alt="Modern Interior Design" class="slider-image">
+                <div class="slide-caption">
+                    <h2 class="animated fadeInDown">Thiết Kế Nội Thất Hiện Đại</h2>
+                    <p class="animated fadeInUp">Không gian sống đẳng cấp và sang trọng</p>
+                    <a href="#" class="btn animated fadeInUp delay-1s">Xem thêm</a>
+                </div>
+            </div>
+            <div class="slide fade">
+                <img src="images/san_pham_8.jpg" alt="Luxury Design" class="slider-image">
+                <div class="slide-caption">
+                    <h2 class="animated fadeInDown">Nội Thất Cao Cấp</h2>
+                    <p class="animated fadeInUp">Sang trọng và tinh tế trong từng chi tiết</p>
+                    <a href="#" class="btn animated fadeInUp delay-1s">Khám phá</a>
+                </div>
+            </div>
+            <div class="slide fade">
+                <img src="images/san_pham_9.jpg" alt="Office Design" class="slider-image">
+                <div class="slide-caption">
+                    <h2 class="animated fadeInDown">Thiết Kế Văn Phòng</h2>
+                    <p class="animated fadeInUp">Không gian làm việc chuyên nghiệp</p>
+                    <a href="#" class="btn animated fadeInUp delay-1s">Liên hệ ngay</a>
+                </div>
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            <div class="dots-container">
+                <span class="dot active" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+        </div>
+    </div>
+
+    <main>
+        <section class="new-designs">
+            <h2>Thiết kế mới</h2>
+            <div class="category-menu">
+                <ul>
+                    <li><a href="#">Văn phòng</a></li>
+                    <li><a href="#">Phòng khách</a></li>
+                    <li><a href="#">Phòng ngủ</a></li>
+                    <li><a href="#">Phòng sách</a></li>
+                    <li><a href="#">Nhà vườn</a></li>
+                </ul>
+            </div>
+            
+            <div class="design-gallery">
+                <div class="design-item">
+                    <img src="images/san_pham_1.jpg" alt="Design 1">
+                    <h3>TKPK 001</h3>
+                    <p>Mẫu thiết kế phòng khách cho căn hộ mẫu Penthouse</p>
+                </div>
+                
+                <div class="design-item">
+                    <img src="images/san_pham_2.jpg" alt="Design 2">
+                    <h3>TKPK 002</h3>
+                    <p>Mẫu thiết kế phòng khách cho căn hộ mẫu Penthouse</p>
+                </div>
+                
+                <div class="design-item">
+                    <img src="images/san_pham_3.jpg" alt="Design 3">
+                    <h3>TKPK 003</h3>
+                    <p>Mẫu thiết kế phòng khách cho căn hộ mẫu Penthouse</p>
+                </div>
+            </div>
+        </section>
+        
+        <section class="luxury-interior">
+            <h2>Nội thất cao cấp</h2>
+            <div class="category-menu">
+                <ul>
+                    <li><a href="#">Văn phòng</a></li>
+                    <li><a href="#">Phòng khách</a></li>
+                    <li><a href="#">Phòng ngủ</a></li>
+                    <li><a href="#">Phòng sách</a></li>
+                    <li><a href="#">Nhà vườn</a></li>
+                </ul>
+            </div>
+            
+            <div class="design-gallery">
+                <div class="design-item">
+                    <img src="images/san_pham_4.jpg" alt="Luxury Design 1">
+                    <h3>SFD0234</h3>
+                    <p>GF Interior design tự hào mang đến hàng loạt các thiết kế công trình văn phòng xuất sắc tại Việt Nam</p>
+                    <a href="#" class="detail-btn">Chi tiết</a>
+                </div>
+                
+                <div class="design-item">
+                    <img src="images/san_pham_5.jpg" alt="Luxury Design 2">
+                    <h3>SFD0234</h3>
+                    <p>GF Interior design tự hào mang đến hàng loạt các thiết kế công trình văn phòng xuất sắc tại Việt Nam</p>
+                    <a href="#" class="detail-btn">Chi tiết</a>
+                </div>
+                
+                <div class="design-item">
+                    <img src="images/san_pham_6.jpg" alt="Luxury Design 3">
+                    <h3>SFD0234</h3>
+                    <p>GF Interior design tự hào mang đến hàng loạt các thiết kế công trình văn phòng xuất sắc tại Việt Nam</p>
+                    <a href="#" class="detail-btn">Chi tiết</a>
+                </div>
+
+                <div class="design-item">
+                    <img src="images/san_pham_7.jpg" alt="Luxury Design 4">
+                    <h3>SFD0234</h3>
+                    <p>GF Interior design tự hào mang đến hàng loạt các thiết kế công trình văn phòng xuất sắc tại Việt Nam</p>
+                    <a href="#" class="detail-btn">Chi tiết</a>
+                </div>
+                
+                <div class="design-item">
+                    <img src="images/san_pham_8.jpg" alt="Luxury Design 5">
+                    <h3>SFD0234</h3>
+                    <p>GF Interior design tự hào mang đến hàng loạt các thiết kế công trình văn phòng xuất sắc tại Việt Nam</p>
+                    <a href="#" class="detail-btn">Chi tiết</a>
+                </div>
+                
+                <div class="design-item">
+                    <img src="images/san_pham_9.jpg" alt="Luxury Design 6">
+                    <h3>SFD0234</h3>
+                    <p>GF Interior design tự hào mang đến hàng loạt các thiết kế công trình văn phòng xuất sắc tại Việt Nam</p>
+                    <a href="#" class="detail-btn">Chi tiết</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-info">
+                <h3>GF Interior Design</h3>
+                <p>Thiết kế nội thất cao cấp tại Việt Nam</p>
+                <p>© 2025 GF Interior Design. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script>
+        // Slider functionality
+        let slideIndex = 1;
+        showSlides(slideIndex);
+        
+        // Auto slide
+        setInterval(function() {
+            plusSlides(1);
+        }, 5000);
+        
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+        
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+        
+        function showSlides(n) {
+            let i;
+            let slides = document.getElementsByClassName("slide");
+            let dots = document.getElementsByClassName("dot");
+            
+            if (n > slides.length) {slideIndex = 1}
+            if (n < 1) {slideIndex = slides.length}
+            
+            for (i = 0; i < slides.length; i++) {
+                slides[i].classList.remove("active");
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].classList.remove("active");
+            }
+            
+            slides[slideIndex-1].classList.add("active");
+            dots[slideIndex-1].classList.add("active");
+        }
+        
+        // Scroll animation
+        $(document).ready(function() {
+            // Hiệu ứng xuất hiện khi cuộn
+            $(window).scroll(function() {
+                $('.design-item').each(function() {
+                    let position = $(this).offset().top;
+                    let scroll = $(window).scrollTop();
+                    let windowHeight = $(window).height();
+                    
+                    if (scroll > position - windowHeight + 100) {
+                        $(this).addClass('visible');
+                    }
+                });
+            });
+            
+            // Hiệu ứng hover cho menu
+            $('nav ul li a').hover(
+                function() {
+                    $(this).addClass('hover-effect');
+                },
+                function() {
+                    $(this).removeClass('hover-effect');
+                }
+            );
+            
+            // Hiệu ứng nút "Chi tiết"
+            $('.detail-btn').on('mouseenter', function() {
+                $(this).addClass('pulse');
+            }).on('mouseleave', function() {
+                $(this).removeClass('pulse');
+            });
+        });
+    </script>
+</body>
+</html>
